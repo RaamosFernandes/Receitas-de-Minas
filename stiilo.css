@@ -1,0 +1,116 @@
+@charset  "UTF-8" ;
+@ font-face {
+    família de fontes : 'fonte' ;
+    src :  url ( "../_fonts/computer-font.ttf" );
+}
+
+
+@keyframes pular {
+    0 % ,  20 % ,  60 % , 100% {
+        -webkit-transform : translateY ( 0 );
+        transformar :  traduzirY ( 0 );
+    }
+    40 % {
+        -webkit-transform : translateY ( -20 px );
+        transformar :  traduzirY ( -20 px );
+    }
+    80 % {
+        -webkit-transform : translateY ( -10 px );
+        transform :  translateY ( -10 px );
+    }
+}
+
+
+corpo {
+ 
+    largura :  1200 px ;
+    margem :  -20 px auto 10 px auto;
+    sombra da caixa :  0 px  0 px  10 px  rgba ( 0 , 0 , 0 , .5 );
+    preenchimento :  10 px ;
+    cor de fundo :  rgb ( 243 ,  243 ,  243 );
+    
+}
+
+body  h1 {
+    cor :  rgb ( 0 ,  0 ,  0 );
+}
+  
+corpo  h2 {
+    cor :  rgb ( 0 ,  0 ,  0 );
+}
+corpo  h3 {
+    cor :  rgb ( 0 ,  0 ,  0 );
+}
+
+p {
+    alinhamento de texto : justificar;
+    recuo do texto :  50 px ;
+}
+/ * ========================================== * /
+
+
+
+. img1 {
+    largura :  100 % ;
+    altura :  500 px ;
+    fundo : url ( '/receitas-de-minas/img/tropeiro.jpg' ) sem repetição;
+    tamanho do fundo : capa;
+    anexo de fundo : fixo;
+}
+. img2 {
+    largura :  100 % ;
+    altura :  300 px ;
+    background : url ( '/receitas-de-minas/img/frango.jpg' ) sem repetição;
+    tamanho do fundo : capa;
+    anexo de fundo : fixo;
+}
+. img3 {
+    largura :  100 % ;
+    altura :  300 px ;
+    fundo : url ( '/receitas-de-minas/img/vaca.jpg' ) sem repetição;
+    tamanho do fundo : capa;
+    anexo de fundo : fixo;
+}
+. img4 {
+    largura :  100 % ;
+    altura :  300 px ;
+    plano de fundo : url ( '/receitas-de-minas/img/tutuu.jpg' ) sem repetição;
+    tamanho do fundo : capa;
+    anexo de fundo : fixo;
+}
+. img5 {
+    largura :  100 % ;
+    altura :  400 px ;
+    plano de fundo : url ( '/receitas-de-minas/img/cheesebread.jpg' ) sem repetição;
+    tamanho do fundo : capa;
+    anexo de fundo : fixo;
+} img6 {
+    largura :  100 % ;
+    altura :  300 px ;
+    fundo : url ( '/receitas-de-minas/img/torresmo.jpg' ) sem repetição;
+    tamanho do fundo : capa;
+    anexo de fundo : fixo;
+}
+
+. img7 {
+    largura :  100 % ;
+    altura :  300 px ;
+    fundo : url ( '/receitas-de-minas/img/angu.jpg' ) sem repetição;
+    tamanho do fundo : capa;
+    anexo de fundo : fixo;
+}
+
+. img8 {
+    largura :  100 % ;
+    altura :  300 px ;
+    background : url ( '/receitas-de-minas/img/curaudemilho.jpg' ) sem repetição;
+    tamanho do fundo : capa;
+    anexo de fundo : fixo;
+}
+. img9 {
+    largura :  100 % ;
+    altura :  300 px ;
+    fundo : url ( '/receitas-de-minas/img/FUBA.jpg' ) sem repetição;
+    tamanho do fundo : capa;
+    anexo de fundo : fixo;
+}
